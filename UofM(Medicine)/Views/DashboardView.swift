@@ -56,7 +56,7 @@ struct lastDay : View {
                 .lineLimit(1)
                 .padding()
         }
-        .background(Color.gray.opacity(0.2))
+        .background(Color.white)
         .clipShape(Rectangle())
         .cornerRadius(20)
         .padding()
@@ -91,9 +91,9 @@ struct fitnessInfo: View {
                 }
             }
         }
-        .frame(width: 350, height: 350)
+        .frame(width: 300, height: 300)
         .padding(.horizontal, 10)
-        .padding(.top, 45)
+        .padding(.top, 5)
     }
 }
 
@@ -123,7 +123,7 @@ struct addWidgets : View {
                 .lineLimit(2)
                 .padding()
         }
-        .background(Color.gray.opacity(0.2))
+        .background(Color.white)
         .clipShape(Rectangle())
         .cornerRadius(10)
         .padding()
